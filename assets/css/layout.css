@@ -2325,6 +2325,10 @@
     white-space: nowrap;
   }
 
+  #main td {
+    font-size: 11px;
+  }
+
   thead th {
     text-align: left;
     color: #000;
