@@ -205,10 +205,10 @@
 					<div class="ym-gbox-left">
 						<h4>Theories and models</h4>
 						<p>Here is a summary of the computational theories developed by the Genesis group and systems built based on those theories.</p>
-						<p><b>Topic</b>: The human abiity that the author wants to model.</p>
-						<p><b>Vision</b>: The behavior that the author wants to enable Genesis to do.</p>
-						<p><b>Theory</b>: The main idea behind the author's computational model of the intelligent behavior.</p>
-						<p><b>Contributions</b>: The subsystems the author built and the new behavior they enable Genesis to demonstrate. </p>
+						<p><b>Topic</b>: The human abiity that the researcher wants to model.</p>
+						<p><b>Vision</b>: The behavior that the research wants a system to do.</p>
+						<p><b>Theory</b>: The main idea behind the research's computational model of the human behavior.</p>
+						<p><b>Contributions</b>: The systems built and the behavior they demonstrate. </p>
 						<p><b>Author</b>: The name of the researcher and the link to a paper or thesis that documents the project.</p>
 					</div>
 		  	</div>
@@ -221,7 +221,7 @@
 							<h5>Story Understanding</h5>
 							<div class="tab-content">
 								<p> The Genesis group believes that story understanding is essential to artificial general intelligence. The “story” here broadly refers to any related sequence of events; a traditional narrative structure is not necessary.</p>
-								<p> Using Genesis system as a substrate, story-understanding goes beyond generating binary classification or relying on combinations of keywords. Instead, we carry out a full, systematic interpretation of the story elements and we are able to explain every step. </p>
+								<p> Using the Genesis system as a substrate, story-understanding goes beyond generating binary classification or relying on combinations of keywords. Instead, we carry out a full, systematic interpretation of the story elements and we are able to explain every step. </p>
 								<table>
 									<thead>
 										<tr>
@@ -236,20 +236,20 @@
 										<!-- <tr>
 											<td>Hypothetical reasoning</td>
 											<td>Understanding hypothetical reasoning involve thinking about possibilities, impossibilities, and constraints.</td>
-											<td>Make Genesis reason hypothetically.</td>
+											<td>Develop a system that reasons hypothetically.</td>
 											<td>A story-enabled hypothetical reasoning system for judging and predicting human actions based on the personality of characters</td>
 											<td>Caroline Aronoff (<a href="http://groups.csail.mit.edu/genesis/papers/2018%20caroline%20aronoff.pdf">2018, MS</a>)</td>
 										</tr> -->
 										<tr>
 											<td>Humor detection</td>
-											<td>Make Genesis understand and explain humor in stories.</td>
+											<td>Develop a system that understands and explains humor in stories.</td>
 											<td>To detect humor, a program must model the listener's mental trajectory using background knowledge, commonsense rules, and methods of describing expectations on the story elements.</td>
 											<td>Humor expert, a program that detects humor in stories based on error identification and resolution. The program consists of a system of experts: some flags tracks characters' states and unexpected events, some explains and resolves these potential anomalies—get the joke.</td>
 											<td>Ada Taylor (<a href="https://groups.csail.mit.edu/genesis/papers/2018%20ada%20taylor.pdf">2018, MS</a>)</td>
 										</tr>
 										<tr>
 											<td>Hypothetical reasoning</td>
-											<td>Make Genesis reason hypothetically about stories and characters.</td>
+											<td>Develop a system that reasons hypothetically about stories and characters.</td>
 											<td>To judge a character’s moral actions, a program can reason hypothetically about the alternative strategies the character could have used—but didn’t. Concept patterns as moral constraints, a new use-case which links narrative patterns and moral codes.</td>
 											<td>(1) Hypothetical expert, a program that answers What-If questions about alternative stories. It discovers the pattern of <code>spiteful violence</code> instead of <code>self-defense</code> when asked "what would happen if Alex doesn't brandish a knife?" It discovers <code>Teaching a lesson</code> instead of <code>aggression of a bully</code> when asked "what would happen if I am not from Estonia?" (2) PERSONATE, a program that predicts what a character would do in a novel situation based on his methods, motives, and moral constraints inferred from previous actions. </td>
 											<td>Dylan Holmes (<a href="http://groups.csail.mit.edu/genesis/papers/2017%20Dylan%20Holmes.pdf">2017, MS</a>)</td>
@@ -263,95 +263,99 @@
 										</tr>
 										<tr>
 											<td>Who knows what</td>
-											<td>Make Genesis understand a story from multiple characters’ perspectives.</td>
+											<td>Develop a system that understands a story from multiple characters’ perspectives.</td>
 											<td>Each character should have their own mental model, containing everything they know or believe about how the world works. Characters observe events only while onstage, and their observations populate mental models.</td>
 											<td>Perspectives Expert, a program that forms detailed mental models of characters in a story, thus able to retell the stories from different character's perspectives, answer reading-comprehension questions to demonstrate understanding, and explaining opposing viewpoints to reconciliate conflict. The program retells the stories of Inspector Javert and Jean Valjean in <i>Les Miserables</i>, along with their goals and interpretation of events that they observe, showing the reader why they think and act differently.</td>
 											<td>Jessica Noss (<a href="https://groups.csail.mit.edu/genesis/papers/2017%20Jessica%20Noss.pdf">2017, MEng</a>)</td>
 										</tr>
 										<tr>
 											<td>Infer reader & character emotions</td>
-											<td>Make Genesis empathize with human emotions while reading stories.</td>
+											<td>Develop a system that empathizes with human emotions while reading stories.</td>
 											<td>To infer the emotions of characters, it's not enough to look at the words, but the patterns that happen from the perspectives of the characters. </td>
 											<td>Isabella, a program that determines the emotions evoked by individual words, a sentence, or a story. (1) it has a vector space model trained on multiple corpus that assigns each word a six-dimensional vector, representing Ekman’s six basic emotions: anger, sadness, joy, surprise, disgust, and fear. (2) To infer the emotions of multiple characters in the story, Isabella aligns the story to story patterns in a memory bank that label the typical emotions of those characters.</td>
 											<td>Ryan Alexander (<a href="http://groups.csail.mit.edu/genesis/papers/2016%20Ryan%20Alexander.pdf">2016, MEng</a>)</td>
 										</tr>
 										<tr>
 											<td>Commonsense knowledge</td>
-											<td>Make Genesis understand stories from the Crow culture.</td>
-											<td>There are four most important differentiators of Crow folklore.</td>
-											<td>Created a commonsense knowledge base for understanding stories from the Crow literature.</td>
+											<td>Develop a system that understands stories from the Crow culture.</td>
+											<td>By tesing a story understanding system with a new corpus of stories, we can identify areas that challenge the system and then develop mechanism to improve it.</td>
+											<td>(1) Added mechnism for inserting elements into stories as the consequences of concept patterns. (2) Created a commonsense knowledge base for understanding stories from the Crow literature.</td>
 											<td>Wolfgang Yarlott (<a href="http://groups.csail.mit.edu/genesis/papers/Yarlott%202014.pdf">2014, MEng</a>)</td>
 										</tr>
 										<tr>
 											<td>Cultural mental models</td>
-											<td>Make Genesis understand cultural differences. </td>
-											<td>A full account of human intelligence must include an account of cultural influences on story understanding. </td>
-											<td>A refined Genesis to model Chinese and American differences in abduction rules.</td>
+											<td>Develop a system that understands the same story from the perspectives of the eastern culture and the western culture. </td>
+											<td>A story can be augmented by a question to simulate alternative viewpoints. </td>
+											<td>(1) A program that answers "Did Lu kill Shan because America is individualistic" by inserting the prior belief of "I believe America is individualistic" into the story and finding the causal chains. (2) Enabled Genesis to associate a personality trait with the reader, thus able to read the story using different sets of rules and concept patterns that are signature in different personality models.</td>
 											<td>Hiba Awad (<a href="http://groups.csail.mit.edu/genesis/papers/awad%202013.pdf">2013, MEng</a>)</td>
 										</tr>
 										<tr>
-											<td>Personality patterns</td>
-											<td>Make Genesis understand character traits.</td>
-											<td>There are at least seven personality traits integral to storytelling: vindictive, aggressive, brave, kind, generous, shy, and mean.</td>
-											<td>Designed the processes of trait learning, application, and inference.</td>
+											<td>Personality traits</td>
+											<td>Develop a system that understands character traits.</td>
+											<td>Applying personality traits can help a story understanding system explain and predict a character's behavior, as well as verifying whether his actions are unexpected given his predispositions.</td>
+											<td>(1) Encoded ten example personality traits, such as "kind" and "mean," accompanied by action patterns of those traits. (2) Developed concept-pattern based trait representation; designed the processes of trait learning, inference, and application (explain and predict). </td>
 											<td>Susan Song (<a href="http://groups.csail.mit.edu/genesis/papers/song%202012.pdf">2012, MS</a>)</td>
 										</tr>
+										<!-- Then, using Fay’s structural alignment work, Krakauer compares patterns generated
+across stories by finding and then comparing their alignment structures. This method of
+comparison is vital for distinguishing between patterns that share events but not structure.
+For instance, Krakauer gives the example of “Mary hits Sally leads to Sally hits Mary leads
+to Mary yells at Sally” as being fundamentally dissimilar to “Mary hits Sally and Mary
+yells at Sally leads to Sally hits Mary.”
+Krakauer also performs word-based generalizations to extract higher-level concept pattern. For instance, the concept of “revenge” is characterized by the pattern, “A harming
+B leads to B harming A,” but “harming” includes an assortment of actions ranging from
+“kick” to “kill.” Using the semantic hierarchy of WordNet, Krakauer calculates a “thread
+distance” to determine if two concept patterns express the same idea despite using different
+vocabulary.
+Krakauer’ -->
 										<tr>
-											<td>Story comparison</td>
-											<td>Make Genesis retrieve old stories and compare with new ones</td>
-											<td>To understand a new situation, humans draw from their knowledge of past experiences and events.</td>
-											<td>Designed high-level concept patterns to illustrate the structural causality of 15 conflict stories, including cyber crime and another about traditional warfare.</td>
+											<td>Story similarity</td>
+											<td>Develop a system that retrieves similar stories from memory when given a new story and measures the similarity between stories.</td>
+											<td>When judging the similarity of stories, a program that uses structural similarity performs more similar to humans than one that uses keyword similarity.</td>
+											<td>The Similarity Module, a program that retrives and compares stories. It uses two methods to measure similarity: (1) Vector Angle, which calculates the similarity between vectors of concept patterns (order doesn't matter); (2) In-Order comparison, which is the ratio of the aligned patterns to the total number of patterns. Given 15 conflict stories to compare, when the program uses Genesis discovered concept patterns and vector matching, its result best predicts human results.</td>
 											<td>Caryn Krakauer (<a href="http://groups.csail.mit.edu/genesis/papers/krakauer%202012.pdf">2012, MS</a>)</td>
 										</tr>
 										<tr>
-											<td>Story comparison</td>
-											<td>Make Genesis detect high-level story elements such as drinking.</td>
-											<td>Even children can differentiate drinking and toasting -- detecting high-level story elements from low-level data.</td>
-											<td>A system that compares how similar two high-level events are in the transition space. </td>
-											<td>Erik Speed (<a href="http://groups.csail.mit.edu/genesis/papers/speed%202012.pdf">2012, MEng</a>)</td>
-										</tr>
-										<!-- If the stories turn out to be very similar, the program can automatically fill those gaps by using the details from the original story and the pattern of the aligned story. See Figure 2-4 for an example of this process. The green elements are gap-filled. -->
-										<tr>
 											<td>Story alignment</td>
-											<td>Make Genesis compare stories by aligning them.</td>
-											<td>Comparison and combination of stories is a step towards enabling imagination in artificial intelligence.</td>
-											<td>Several algorithms to compare stories in polynomial time.</td>
+											<td>Develop a system that finds the common sequence in stories efficiently.</td>
+											<td>Story comparison can be used to draw on old experiences to understand and imagine new ideas.</td>
+											<td>(1) Adapted the Needleman-Wunsch sequence alignment algorithm for aligning stories, which can be used to predict future events. (2) The simultaneous matching and alignment algorithm is able to rapidly prune and search the exponential search space that results from the goal to keep the associations between entities of the two plots consistent. The story alignment program is used to fill in missing gaps in descriptions of videos by comparing the video to an existing video corpus.</td>
 											<td>Matthew Fay (<a href="http://groups.csail.mit.edu/genesis/papers/Fay%202012.pdf">2012, MS</a>)</td>
 										</tr>
-										<tr>
+										<!-- <tr>
 											<td>Commonsense rules</td>
-											<td>Make Genesis understand complex stories using commonsense inference rules</td>
+											<td>Develop a system that understands complex stories using commonsense inference rules</td>
 											<td>Theory</td>
 											<td>A refined Genesis that read stories of 100+ events with rules describing relationships, desire, etc.</td>
 											<td>Harold Low (<a href="http://groups.csail.mit.edu/genesis/papers/low%202011.pdf">2011, MEng</a>)</td>
-										</tr>
+										</tr> -->
 										<tr>
 											<td>Story matching</td>
-											<td>Make Genesis make analogies according to high-level patterns.</td>
+											<td>Develop a system that makes analogies between stories.</td>
 											<td>For proper reasoning and inference of stories, the ability to make analogies is also crucial.</td>
-											<td>A subsystem that makes analogies between stories, using plot units to guide the process.</td>
+											<td>A subsystem that makes analogies between stories according to plot units. Shown that the current Structure Mapping Engine algorithm still needs to be improved for analogizing between stories in Innerese form</td>
 											<td>Jesse Dunietz (<a href="http://groups.csail.mit.edu/genesis/papers/dunietz2011.pdf">2011, UG</a>)</td>
 										</tr>
 										<tr>
-											<td>Plot unit</td>
-											<td>Make Genesis process and search plot units.</td>
+											<td>Plot units</td>
+											<td>Develop a system that processes and searches plot units.</td>
 											<td>Plot units are the common set of structures found in human narrative.</td>
-											<td>An English template for describing plot units and a system to do plot-unit searches on stories.</td>
+											<td>An idiom for describing plot units in English and a program to do plot-unit searches on stories. The program finds 10 plot units spread over Macbeth, Hamlet, and the Estonia-Russian Cyber Conflict.</td>
 											<td>David Nackoul (<a href="http://groups.csail.mit.edu/genesis/papers/Nackoul%202010.pdf">2010, MEng</a>)</td>
 										</tr>
 										<tr>
-											<td>Question answering</td>
-											<td>Make Genesis reason about commonsense knowledge.</td>
-											<td>Memory cannot be stored in self-organizing map (lose initial ideas), but frames made from things and threads: trajectories, transitions, causes.</td>
-											<td>A memory system that generalizes, predicts, and answers questions based on commonsense knowledge.</td>
+											<td>Memory system</td>
+											<td>Develop a system that reasons with commonsense knowledge.</td>
+											<td>A story understanding system needs a memory for storing commonsense knowledge and generalize from previous experiences.</td>
+											<td>A memory system that generalizes from related examples, predicts using the generalization, and answers questions based on commonsense knowledge learned. LLMerger clusters frames into chains for generalization.</td>
 											<td>Sam Glidden (<a href="http://groups.csail.mit.edu/genesis/papers/glidden%202009.pdf">2009, MEng</a>)</td>
 										</tr>
 										<!-- <tr>
-											<td>Topic</td>
-											<td>Idea</td>
-											<td>Vision</td>
-											<td>Contribution</td>
-											<td>Author</td>
+											<th>Topic</th>
+											<th>Vision</th>
+											<th>Theory</th>
+											<th>Contributions</th>
+											<th>Author</th>
 										</tr> -->
 									</tbody>
 								</table>
@@ -373,23 +377,30 @@
 									<tbody>
 										<tr>
 											<td>Story modulation</td>
-											<td>Make Genesis understand communicator’s intentions from wording and explain them in a coherent argument.</td>
+											<td>Develop a system that understands communicator’s intentions from wording and explain them in a coherent argument.</td>
 											<td>Story modulation: a storyteller uses rhetorical device to shape the inner-story of his audience.</td>
-											<td>RASHI, a program that reads short news-like stories and identifies rhetorical indicators using a system of "experts", such as <code>The Passive Voice Expert</code> and <code>The Repetition Expert</code>. The program explains author's intentions along three dimensions -- sympathy, agency, and doubt, after reading story <i>Regime slaughters freedom fighter</i>.</td>
+											<td>RASHI, a program that reads short news-like stories and identifies rhetorical indicators using a system of "experts", such as <code>The Passive Voice Expert</code> and <code>The Repetition Expert</code>. The program explains author's intentions along three dimensions--sympathy, agency, and doubt, after reading story <i>Regime slaughters freedom fighter</i>.</td>
 											<td>Suri Bandler (<a href="http://groups.csail.mit.edu/genesis/papers/2019%20Suri%20Bandler.pdf">2018, MEng</a>)</td>
 										</tr>
 										<tr>
+											<td>Story Summary</td>
+											<td>Develop a system that summarizes stories</td>
+											<td>People read summaries mainly to acquire useful knowledge in minimal time, thus a summary program should focus on conveying knowledge useful as precedent and exclude obvious inferences.</td>
+											<td>A story summarizer that uses a collection of method to reduce elements of stories: eliminating disconnected story elements, delivering only story elements connected to conceptual patterns, and focusing on particular concepts of interest. It summarizes an 85-element synllege of  Shakespeare’s Macbeth with 14-element concise story about Pyrrhic victory. Across stories, the summarizer can compress stories by 60-74%</td>
+											<td>Patrick Winston (<a href="https://pdfs.semanticscholar.org/b88d/1e9e8da089388ffa03becc1013103fd96e51.pdf">2015</a>)</td>
+										</tr>
+										<tr>
 											<td>Character-aware storytelling</td>
-											<td>Make Genesis tell stories with rich character models.</td>
-											<td>Story generation is a higher level of story understanding.</td>
-											<td>Developed a plot generation system that includes algorithms that learn character model from a corpus of stories and weave character’s plots of different stories.</td>
-											<td>Matthew Paul Fay (<a href="http://groups.csail.mit.edu/genesis/papers/fay%202014.pdf">2014, PhD</a>)</td>
+											<td>Develop a system that generates stories with rich character models.</td>
+											<td>Character trait can guide a storytelling system how to organize its knowledge.</td>
+											<td>A program that generates stories given the traits of characters. It generates by adapting the plots associated with previous characters with those traits to the current character, then efficiently weaving the plots of differet characters together to make them compatible and consistent in time. The program can generate stories given character with evolving traits, character with cross-genre traits, and characters with conflicting goals. In one generated story, a character ends up falling in love with his lost daughter and they get married--this is unexpected use of knowledge gathered from the romances in Shakespearean comedies.</td>
+											<td>⭐Matthew Paul Fay (<a href="http://groups.csail.mit.edu/genesis/papers/fay%202014.pdf">2014, PhD</a>)</td>
 										</tr>
 										<tr>
 											<td>Audience-aware storytelling</td>
-											<td>Make Genesis tell stories to instruct and persuade.</td>
-											<td>Storytelling is a question of goal-driven social interaction between the storyteller and the audience.</td>
-											<td>Audience Aware Storyteller, a collection of modules that consider descriptions of audience and goal of narrative to generate stories.</td>
+											<td>Develop a system that retells stories to instruct and persuade.</td>
+											<td>Storytelling is a question of goal-driven social interaction between the storyteller and the audience. Among storytelling goals are instruction and persuasion.</td>
+											<td>(1) Instruction expert, a program that simulates a teacher using stories to feed the student facts, or explanations of the facts, or knowledge used in the explanation. (2) Persuasion expert, a program that retells a story to emphasize a character trait by removing story events that show the opposite trait of the character and removing story events that show other characters having that trait.</td>
 											<td>Sila Sayan (<a href="http://groups.csail.mit.edu/genesis/papers/Sayan%202014.pdf">2014, MEng</a>)</td>
 										</tr>
 										<!-- <tr>
@@ -410,8 +421,8 @@
 									<thead>
 										<tr>
 											<th>Topic</th>
-											<th>Theory</th>
 											<th>Vision</th>
+											<th>Theory</th>
 											<th>Contributions</th>
 											<th>Author</th>
 										</tr>
@@ -419,68 +430,81 @@
 									<tbody>
 										<tr>
 											<td>Learn moral of stories</td>
-											<td>Make Genesis extract generalizable moral of a story.</td>
+											<td>Develop a system that extracts generalizable moral of a story.</td>
 											<td>Aligning stories by emotional states abstracts away story-specific details. A story can be both a motivational story and a cautinary tale depending which character's perspectives you take.</td>
 											<td>MAXIM, a program that aligns two stories by the emotional states of characters and explains the moral using the common causes of the emotions. The program learns "It’s ok if you are different because Valuable Rudolph is different" after reading <i>Rudolph the Red-Nosed Reindeer</i> and <i>The Math Aficionado</i>.</td>
 											<td>Zhaozheng Alice Jin (<a href="http://groups.csail.mit.edu/genesis/papers/2019%20Alice%20Jin.pdf">2019, MEng</a>)</td>
 										</tr>
 										<tr>
 											<td>Learn recipes</td>
-											<td>Vision</td>
-											<td>Idea</td>
-											<td>Contribution</td>
-											<td>Author</td>
+											<td>Develop a system that learns recipes by asking questions and reading stories.</td>
+											<td>To learn the relevant steps for achieving a high-level goal, a program can find the common goals achieved by the steps in two texts.</td>
+											<td>Genesis Novice Learners that acquire procedural knowledge by asking questions and by aligning successful problem-solving stories. One learner learns the steps to make a real-world fruit salad by conversing with a human. Another learner learns to replace a phone battery from two 80-word stories that have much irrelevant detail and nothing expressed in exactly the same way.</td>
+											<td>Zhutian Yang (<a href="https://dspace.mit.edu/bitstream/handle/1721.1/119668/CMHI-Report-3.pdf?sequence=1&isAllowed=y">2018</a>)</td>
 										</tr>
 										<tr>
 											<td>Learn concepts</td>
-											<td>Make Genesis acquire concepts by a few example, as opposed to learning by explicit definition.</td>
+											<td>Develop a system that acquires concepts by a few example, as opposed to learning by explicit definition.</td>
 											<td>Humans can build up concepts by first seeing positive examples and then negative examples. </td>
 											<td>STUDENT, an interactive learning system that takes in a small series of positive and negative examples of concepts and builds an internal model for these concepts, including the elements that is required, forbidden, and optional.</td>
 											<td>Jake Barnwell (<a href="https://groups.csail.mit.edu/genesis/papers/2018%20Jake%20Barnwell.pdf">2018, MEng</a>)</td>
 										</tr>
 										<tr>
+											<td>Learn character traits</td>
+											<td>Develop a system that discovers character traits and associated plots from a corpus of stories.</td>
+											<td>Topic modeling is a scalable method for clustering traits on unlabeled data.</td>
+											<td>Methods for automaticly learning character traits in both an unsupervised way using topic modeling (Latent Semantic Analysis) and a semi-supervised way using a new method of alignment-based trait learning. The model unexpectedly discovered the trait of doomed royalty, with which a character is both to be king and to be killed</td>
+											<td>⭐Matthew Paul Fay (<a href="http://groups.csail.mit.edu/genesis/papers/fay%202014.pdf">2014, PhD</a>)</td>
+										</tr>
+										<tr>
+											<td>Detect high-level concept</td>
+											<td>Develop a system that detects high-level story elements such as drinking from low-level data that can be produced from videos.</td>
+											<td>To build high-level story elements from low-level data, a system can filter and group the data, then label the groups using regular supervised methods.</td>
+											<td>A program that groups series of low-level events in the transition space into clusters of high-level story events, such as flying and rinking. </td>
+											<td>Erik Speed (<a href="http://groups.csail.mit.edu/genesis/papers/speed%202012.pdf">2012, MEng</a>)</td>
+										</tr>
+										<tr>
 											<td>Learn story patterns</td>
-											<td>Make Genesis learn narrative structure from annotated folktales.</td>
+											<td>Develop a system that learns narrative structure from annotated folktales.</td>
 											<td>Narrative structure opens the door to understand of cultural influences on cognition and cultural differences captured in stories.</td>
-											<td>Analogical Story Merging, a new machine learning algorithm that can extract culturally-relevant plot patterns from sets of folktales.</td>
+											<td>Analogical Story Merging, a new machine learning algorithm that can extract culturally-relevant plot patterns from sets of annotated folktales.</td>
 											<td>Mark Finlayson (<a href="http://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf">2011, PhD</a>)</td>
 										</tr>
 										<tr>
-											<td>Learn meaning</td>
-											<td>Latt..</td>
-											<td>...</td>
-											<td>...</td>
+											<td>Learn parsing rules</td>
+											<td>Develop a system that learns the mapping from language to semantics from examples.</td>
+											<td>Learning how to parse instead of hand-coding it can provide a system with motr robust and extensible parser.</td>
+											<td>A learning semantic parser that is able to read 43 parsing examples and generate 18 rules, which was originally implemented with 1000 lines of Java code.</td>
 											<td>Harold Cooper (<a href="http://groups.csail.mit.edu/genesis/papers/Cooper%202009.pdf">2009, MEng</a>)</td>
 										</tr>
 										<!-- it is sufficient to read that “The dove flies” and that “Pigs cannot fly” to infer that the only flying entities are the ones in the “bird” subtree -->
 										<tr>
-											<td>Lattice-learning</td>
-											<td>Make systems that understand natural language using knowledge  learned from a few examples, instead of hard-coded.</td>
-											<td>Lattice-Learning to generalize accurately from just a few examples: “Robins, bees and helicopters can fly, but cats, worms and boats cannot,”</td>
-											<td>Understand, a program that learns to transform parsed English into semantic frames using Lattice-Learning, a concept-learning algorithm that can learn Thread descriptions from very few examples.</td>
+											<td>Learn rules</td>
+											<td>Develop a system that understands natural language using knowledge learned from a few examples, instead of hard-coded.</td>
+											<td>To learn/generalize from just a few examples, we need a positive e example to seed the description and a negative example to specify it.</td>
+											<td>(1) Lattice-Learning, a concept-learning algorithm that can learn Thread descriptions and rules from very few examples. For example, “Robins, bees and helicopters can fly, but cats, worms and boats cannot,” is enough for Understand to narrow in on our concept of flying things: birds, insects and aircraft. (2) Understand, a program that learns to transform parsed English into semantic frames using Lattice-Learning. It takes only 8 positive and 4 negative examples to teach Understand how to interpret sentences as complicated as “The cat ran from the yard because a dog appeared.  </td>
 											<td>Michael Klein (<a href="http://groups.csail.mit.edu/genesis/papers/Klein%202008.pdf">2008, MEng</a>)</td>
 										</tr>
 										<tr>
 											<td>Learn typical events</td>
-											<td>Build systems that can learn typical events in the world through observation and explanation.</td>
+											<td>Develop a system that learns typical events in the world through observation and explanation.</td>
 											<td>By using clusters of similarity as an implicit representation, the self-organizing event maps mimics natural memory systems and do not suffer from being tied to the limitations of a specific explicit representation of regularity.</td>
 											<td>The self-organizing event map, a data structure that stores a plane of event models that are continually updated and organized according to events that are observed by the system.</td>
 											<td>Seth Tardiff (2004, MEng)</td>
 										</tr>
 										<tr>
 											<td>Learn about objects</td>
-											<td>Build machines capable of broad purpose learning and reasoning of commonsense knowledge.</td>
+											<td>Develop a system that is capable of broad purpose learning and reasoning of commonsense knowledge.</td>
 											<td>For a system to set goals for itself and carry it through, it needs a reflection thread</td>
 											<td>Squirrel, an architecture that learns commonsense knowledge about the properties and behavior of objects in the world.</td>
 											<td>Oana Stamatoiu (<a href="http://groups.csail.mit.edu/genesis/papers/Stamatoiu2004.pdf">2004, MEng</a>)</td>
 										</tr>
-										<!-- http://groups.csail.mit.edu/genesis/papers/Scheidegger%202004.pdf -->
 										<!-- <tr>
-											<td>Topic</td>
-											<td>Idea</td>
-											<td>Vision</td>
-											<td>Contribution</td>
-											<td>Author</td>
+											<th>Topic</th>
+											<th>Vision</th>
+											<th>Theory</th>
+											<th>Contributions</th>
+											<th>Author</th>
 										</tr> -->
 									</tbody>
 								</table>
@@ -493,8 +517,8 @@
 									<thead>
 										<tr>
 											<th>Topic</th>
-											<th>Theory</th>
 											<th>Vision</th>
+											<th>Theory</th>
 											<th>Contributions</th>
 											<th>Author</th>
 										</tr>
@@ -502,21 +526,21 @@
 									<tbody>
 										<tr>
 											<td>Robust parsing</td>
-											<td>Make Genesis parse ungrammatical and complex sentences.</td>
+											<td>Develop a system that parses ungrammatical and complex sentences.</td>
 											<td>A program can understand ungrammatical sentences by leveraging the power of expectation.</td>
 											<td>Unified Plausibility Parser (UPP), a tool that fixes complex and unparsable sentences by generating plausible interpretations to them and selecting the one that best fits the examples previously read. To parse "The pigeon the fox eats," UPP assigns a greater plausibility to “The fox eats the pigeon” than “The pigeon eats the fox” because UPP has read "The cat likes the dove" before.</td>
 											<td>Emanuele Ceccarelli (<a href="http://groups.csail.mit.edu/genesis/papers/2017%20Emanuele%20Ceccarelli.pdf">2017, MEng</a>)</td>
 										</tr>
 										<tr>
 											<td>Word disambiguation</td>
-											<td>Make Genesis disambiguate word-senses.</td>
+											<td>Develop a system that disambiguates word-senses.</td>
 											<td>Word disambiguation requires lexical database.</td>
 											<td>CLARIFY, a program that disambiguates words based on WordNet threads.</td>
 											<td>Martin Marcel Couturier (2011, MEng)</td>
 										</tr>
 										<tr>
 											<td>Word disambiguation</td>
-											<td>Make Genesis disambiguate word meanings with minimal starting information.</td>
+											<td>Develop a system that disambiguates word meanings with minimal starting information.</td>
 											<td>It is important to explore how a computer reading a text can go from a word to its meaning.</td>
 											<td>A disambiguator System that uses Lattice Learning to capture the concept of contexts.</td>
 											<td>Elyi Stickgold (2011, MEng)</td>
@@ -544,7 +568,7 @@
 										</tr>
 										<tr>
 											<td>Disambiguation with vision</td>
-											<td>Build Cognitively Complete System spanning the vision and language faculties. </td>
+											<td>Build a Cognitively Complete System with vision and language faculties. </td>
 											<td>A reconciliatory exchange makes the best use of two sources of information, each has ambiguities and missing information.</td>
 											<td>A system that solves ambiguity by reconciling between linguistic and non-linguistic semantic information.</td>
 											<td>Keith Bonawitz (2003, MEng)</td>
@@ -567,8 +591,8 @@
 									<thead>
 										<tr>
 											<th>Topic</th>
-											<th>Theory</th>
 											<th>Vision</th>
+											<th>Theory</th>
 											<th>Contributions</th>
 											<th>Author</th>
 										</tr>
@@ -582,46 +606,46 @@
 											<td>Adam Kraft (2018, PhD)</td>
 										</tr>
 										<tr>
-											<td>Recognize "worm" actions</td>
-											<td>Make systems that can recognize action.</td>
+											<td>Recognize actions</td>
+											<td>Develop a system that recognizes simulated "worm" action.</td>
 											<td>Humans represent actions internally with concrete sensory data: touch, proprioception, muscle tension.</td>
 											<td>EMPATH, a system that recognizes the actions of a simulated worm through sensory information learned by watching the creature free-play.</td>
 											<td>Robert McIntyre (2014, MEng)</td>
 										</tr>
 										<tr>
 											<td>Recognize human actions</td>
-											<td>Develop a system that recognize human actions from videos.</td>
+											<td>Develop a system that recognizes human actions from videos.</td>
 											<td>Recognize human actions based on pose classification of a single frame and a model of transitions between poses.</td>
 											<td>A vision system that recognizes basic human actions with 91% recall.</td>
 											<td>Nikola Otasevic (2013, MEng)</td>
 										</tr>
 										<tr>
 											<td>Recognize visual actions</td>
-											<td>Make Genesis recognize transition-based visuospatial patterns.</td>
+											<td>Develop a system that recognizes transition-based visuospatial patterns.</td>
 											<td>An important competence of artificial intelligence is transition-based visuospatial pattern recognition.</td>
 											<td>A vision system for learning and recognizing visual actions based on state transitions.</td>
 											<td>Telmo Correa (2011, MEng)</td>
 										</tr>
 										<tr>
 											<td>Trajectory simulation</td>
-											<td>Make systems that initiate visual representations from natural language</td>
+											<td>Develop a system that initiates visual representations from natural language</td>
 											<td>The basic representations of Is-A, Is-JJ, Is-Superlative, Is-Possessive, Trajectory, Relation, and Transition is sufficient to reason about the world.</td>
 											<td>Span, a system that can generate trajectory descriptions from natural language to imagine a 3D inner world.</td>
 											<td>Mark Seifter (<a href="http://groups.csail.mit.edu/genesis/papers/2007%20Mark%20Seifter.pdf">2007, MEng</a>)</td>
 										</tr>
 										<tr>
-											<td>Sentence visualization</td>
-											<td>Understand how human language and vision connect.</td>
-											<td>Visualization by incremental composition, matching by hallucination.</td>
-											<td>VISUALIZE, a program that maps a sentence to an image or a movie, and DESCRIBE for generating language from visual predicates.</td>
-											<td>John Bender (2001, MEng)</td>
+											<td>Represent path</td>
+											<td>To understand how human language and vision connect, we need to model how human describe events and visualize them.</td>
+											<td>Visualization by incremental composition.</td>
+											<td>(1) Implemented Ray Jackendo's Lexical-Conceptual Semantics for representing path, (2) VISUALIZE, a program that maps a sentence to an image or a movie, and DESCRIBE for gener5ating language from visual predicates.</td>
+											<td>John Bender (<a href="http://groups.csail.mit.edu/genesis/papers/Bender.pdf">2001, MEng</a>)</td>
 										</tr>
 										<!-- <tr>
-											<td>Topic</td>
-											<td>Idea</td>
-											<td>Vision</td>
-											<td>Contribution</td>
-											<td>Author</td>
+											<th>Topic</th>
+											<th>Vision</th>
+											<th>Theory</th>
+											<th>Contributions</th>
+											<th>Author</th>
 										</tr> -->
 									</tbody>
 								</table>
@@ -691,11 +715,11 @@
 											<td>Raymond Molnar (2001, MEng)</td>
 										</tr>
 										<!-- <tr>
-											<td>Topic</td>
-											<td>Idea</td>
-											<td>Vision</td>
-											<td>Contribution</td>
-											<td>Author</td>
+											<th>Topic</th>
+											<th>Vision</th>
+											<th>Theory</th>
+											<th>Contributions</th>
+											<th>Author</th>
 										</tr> -->
 									</tbody>
 								</table>
@@ -1013,6 +1037,42 @@
 		<div class="ym-wbox">
 			<h2 id="documentation" tabindex="-1">Documentation</h2>
 			<a href='genesis/'>genesis docs</a>
+
+			<p>A wired-box paradigm is used to integrate Genesis' sub-systems. The paradigm was inspired by the “Propagator Model” (<a href="https://dspace.mit.edu/handle/1721.1/44215">Sussman and Radul, 2009</a>), proposed by Gerald Sussman.
+
+			<p>Genesis is composed of many independent modules, represented as boxes which perform various tasks, such as parsing, finding concept patterns, or visualizing events. Each box interacts with other boxes via wires which can provide both input and output channels. The wired-box paradigm offers a number of advantages:</p>
+			<ul>
+			  <li>Each box is an isolated unit from the rest of the system. When developing a large system, boxes can be modified or even replaced without having to rewrite any of the connections.</li>
+				<li>It is easy for new researchers to begin developing their boxes and use the other boxes in Genesis without understanding them.</li>
+			  <li>Box connections are bi-directional, which is similar to the feedback passage of the human brain.</li>
+			  <li>The wired-box paradigm can function regardless of the physical locations of any particular boxes. Thus boxes can span many processes on multiple physical machines across a network. </li>
+			</ul>
+
+			<p>The START natural language processor (<a href="https://groups.csail.mit.edu/infolab/publications/Katz-RIAO97.pdf">B. Katz, 1997</a>) can parse English sentences into <code>&lt; subject, relation, object &gt;</code> triples, which Genesis then use to construct nested sequence of frames. The START parser has a number of advantages:</p>
+			<ul>
+				<li>It provides both sentence parsing and sentence generation functions. </li>
+				<li>It tracks agents between sentences by assigning them the same index. It also infers the gender of agent names and uses their gender to resolve pronoun ambiguity. </li>
+				<li>It extracts both semantic and syntactic information from the sentence. For example, given sentence <i>Mary liked her little brother very much</i>, the semantic triples include <code>&lt; Mary, like+1, brother+300 &gt;</code> and the syntactic triples include <code>&lt; like+1 has_tense past &gt;</code></li>
+			</ul>
+
+			<p>Innerese is the semantic structure that Genesis uses to represent story elements. The representation is highly expressive, and the semantic information stored is easily searchable and comparable. </p>
+			<ul>
+				<li>Nested frames can represent ideas of arbitrarily high complexity, enabling Genesis to reason about high-order theory of mind and perform high-level reflective understanding. </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+			</ul>
+
+
+			<!-- <p> </p>
+			<ul>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+				<li> </li>
+			</ul> -->
+
 		</div>
 	</div>
 </div>
