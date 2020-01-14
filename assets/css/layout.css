@@ -53,7 +53,8 @@
   *      Vorgabe der Standardfarben und Textausrichtung
   */
   body {
-    font-size: 100%;
+    /* font-size: 100%; */
+    font-size: 16px;
     background: #fff;
     color: #000;
     text-align: left;
@@ -165,7 +166,7 @@
   }
 
   li {
-    line-height: 1.5em;
+    line-height: 2em;
     margin-left: 0.8em;
   }
 
@@ -854,16 +855,16 @@
     font-size: 1.0em;
     line-height: 1;
     list-style-type: none;
-    margin: 0 .25em 0 0;
+    margin: 0 .25em 0 .25em;
     padding: 0;
   }
   .ym-hlist ul li a, .ym-hlist ul li strong {
     background: transparent;
     color: #aaa;
     display: block;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 2em;
-    padding: 0 0.5em;
+    padding: 0 1em;
     font-weight: normal;
     text-decoration: none;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
@@ -1999,8 +2000,8 @@
   }
 
   li {
-    font-size: 100%;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 2;
     margin-left: 1.2em;
   }
 
@@ -2014,7 +2015,7 @@
 
   /* --- general text formatting | Allgemeine Textauszeichnung ------------------------------------------ */
   p {
-    font-size: 100%;
+    font-size: 16px;
     line-height: 1.5;
     margin: 0 0 1.5em 0;
   }
@@ -2325,9 +2326,9 @@
     white-space: nowrap;
   }
 
-  #main td {
+  /* #main td {
     font-size: 11px;
-  }
+  } */
 
   thead th {
     text-align: left;
@@ -2430,7 +2431,8 @@
   }
 
   .ym-wbox {
-    padding: 24px 48px;
+    padding: 24px 192px;
+    /* changed from padding: 24px 48px; into single column design */
     position: relative;
   }
 
@@ -2505,14 +2507,15 @@
   header h2 {
     font-family: "Droid Serif", Georgia, "Times New Roman", Times, serif;
     font-weight: bold;
-    font-size: 90px;
+    font-size: 52px;
+    line-height: 130%;
     color: #000000;
     border: 0 none;
     text-shadow: 1px 1px 1px white;
   }
 
   header h1 {
-    margin: 0.45em 0 0.25em 0;
+    margin: 0.45em 0 0.45em 0;
   }
 
   header h2 {
@@ -2724,6 +2727,11 @@
   nav {
     border-top: 1px #000 solid;
     background: #080b0c;
+
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    /* added by Z to center menu items */
   }
 
   nav .ym-wbox {
@@ -2737,6 +2745,8 @@
 
   nav .ym-hlist ul {
     padding: 0.5em 0;
+    display: inline-block;
+    /* added by Z to center menu items */
   }
 
   nav .hlist li a {
@@ -3173,7 +3183,7 @@
   }
 
   header p {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   th.nowrap,

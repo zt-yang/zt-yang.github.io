@@ -1,18 +1,32 @@
 <!DOCTYPE html>
-<html lang="en"><head></head>
+<html lang="en"><head>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script>
+	    $(function(){
+	        $('a').each(function(){
+	            if ($(this).prop('href') == window.location.href) {
+	                $(this).addClass('active'); $(this).parents('li').addClass('active');
+	            }
+	        });
+	    });
+	</script>
+</head>
 <body>
 
 <header role="banner" style="
 	background-image: url('assets/images/banner.jpg');
 	background-position: center top;
 	background-size: 100% auto;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.8);
   background-blend-mode: lighten;">
 	<div class="ym-wrapper">
 		<div class="ym-wbox">
-			<h1>Genesis</h1>
-			<h2>Story Understanding Group</h2>
-			<h2>Computer Science and Artificial Intelligence Laboratory, MIT</h2>
+			<a href="index.html">
+				<!-- <h1>Genesis</h1>
+				<h2>Story Understanding Group</h2> -->
+				<h1>The Genesis Story <br>Understanding Group</h>
+				<h2>Computer Science and Artificial Intelligence Laboratory, MIT</h2>
+			</a>
 		</div>
 	</div>
 </header>
@@ -32,16 +46,12 @@
 	 <div class="ym-wbox">
 		 <div class="ym-hlist">
 			 <ul>
-				 <li class="active">
-					 <a href="vision.html">Vision</a>
-					 <!-- <a href="#yaml-quickstart">Quick Start</a> -->
-				 </li>
-				 <li><a href="research.html">Projects</a></li>
-				 <li><a href="demostrations.html">Demonstrations</a></li>
+				 <li><a href="index.html">Welcome</a></li>
+				 <li><a href="vision.html">Vision</a></li>
+				 <li><a href="research.html">Research</a></li>
 				 <li><a href="people.html">People</a></li>
-				 <li><a href="get-genesis.html">Get Genesis</a></li>
-				 <li><a href="documentation.html">Documentation</a></li>
-				 <li><a href="contact.html">Contact</a></li>
+				 <li><a href="readings.html">Readings</a></li>
+				 <li><a href="get-involved.html">Get Involved</a></li>
 			 </ul>
 		 </div>
 	 </div>
