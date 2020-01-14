@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8"/>
+	<title>Genesis Group Home Page</title>
+	<link rel="icon" href="./assets/images/favicon.ico" />
+
+	<!-- JavaScript Detection -->
+	<script>document.documentElement.className += " js";</script>
+
+	<link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700&amp;text=YAML4%20CSS%20Framework" rel="stylesheet" type="text/css"/>
+	<link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic,700|Droid+Sans:700" rel="stylesheet" type="text/css">
+	<link href="./assets/css/layout.css" rel="stylesheet" type="text/css"/>
+	<link href="./assets/js/snippet/snippet.css" rel="stylesheet" type="text/css"/>
+
+	<!--[if lte IE 7]>
+	<link href="../yaml/core/iehacks.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Google Analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-1851047-1']);
+	  _gaq.push(['_setDomainName', 'yaml.de']);
+	  _gaq.push(['_gat._anonymizeIp']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+	<script src="./assets/js/jquery-1.10.1.min.js"></script>
+	<script src="./assets/js/jquery-migrate-1.2.1.min.js"></script>
+	<script>
+		$(function() {
+			$("#header").load("header.html")
+			$("#footer").load("footer.html")
+		})
+	</script>
+
+</head>
+
+<body id="yaml-top" class="doc">
+<!-- skip link navigation -->
+<ul class="ym-skiplinks">
+	<li><a class="ym-skip" href="#level2">Skip to navigation (Press Enter)</a></li>
+	<li><a class="ym-skip" href="#overview">Skip to main content (Press Enter)</a></li>
+</ul>
+
+<div id="header"></div>
+
+
+<!--
+ * | * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * |
+ * |          Get Genesis
+ * |
+ * | * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ */
+-->
+
+<div id="main" class="ym-clearfix" role="main">
+	<div class="ym-wrapper">
+		<div class="ym-wbox">
+			<h2 id="get-genesis" tabindex="-1">Get Genesis</h2>
+
+			<div class="ym-grid linearize-level-1">
+				<div class="ym-g25 ym-gl">
+					<div class="ym-gbox-left">
+						<p> The Genesis system ...
+					</div>
+				</div>
+
+				<div class="ym-g75 ym-gr">
+					<div class="ym-gbox-right">
+						<h3>Install Genesis Demo App</h3>
+						<p>You can download the demonstrations of the Genesis Group's story-understanding system.</p>
+
+						<div class="jquery_tabs">
+
+							<h5>Step 1: Download Java 8</h5>
+							<div class="tab-content">
+								<p>Some of the story-understanding functionality of Genesis is now available via the Java WebStart mechanism, which comes with the Java Runtime Environment, the so-called JRE. So, if you don't have the Java 8 Runtime Enviornment installed, you should <a href="http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html">install Java RE 8</a> first.</p>
+
+								<p>Next, because Java security becomes steadily greater, you will need to do some <a href="http://groups.csail.mit.edu/genesis/preparation.html">preparation</a>.</p>
+							</div>
+
+							<h5>Step 2: Download Genesis</h5>
+							<div class="tab-content">
+								<p>Then, you can run <a href="https://courses.csail.mit.edu/6.034f/genesis/genesis.jnlp">Genesis</a>. It will likely take a while to download, as it is about 30MB, because it contains some big dictionary files. Web Start will ask if you trust us. Indicate that you do. Then Web Start will download Genesis onto your computer. You will see something like the following:</p>
+								<img src="https://groups.csail.mit.edu/genesis/genesis-screen.jpg" style="width: 100%; padding-bottom: 20px;"/>
+
+								<p>Click on <code>Use this screen</code> in the navigation pane on the left for instructions.</p>
+
+								<p>Alternatively, just click on the <code>Demonstrations</code> menu item to run experiments.</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="footer"></div>
+
+<!-- jQuery & Plugins -->
+<script src="./assets/js/snippet/jquery.snippet.js"></script>
+<script src="./assets/js/jquery.gridbuilder.js"></script>
+<script src="./assets/js/domscript.js"></script>
+<script src="./assets/js/jquery.tabs.js"></script>
+<script src="./assets/js/jquery.syncheight.js"></script>
+<script src="./assets/js/yaml-focusfix.js"></script>
+</body>
+</html>
