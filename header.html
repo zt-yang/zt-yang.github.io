@@ -2,13 +2,18 @@
 <html lang="en"><head>
 	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script>
-	    $(function(){
-	        $('a').each(function(){
-	            if ($(this).prop('href') == window.location.href) {
-	                $(this).addClass('active'); $(this).parents('li').addClass('active');
-	            }
-	        });
-	    });
+    $(function(){
+			var found = false;
+      $('a').each(function(){
+        if ($(this).prop('href') == window.location.href) {
+					found = true;
+          $(this).addClass('active'); $(this).parents('li').addClass('active');
+        }
+      });
+			if (!found){
+				$("#index").addClass('active'); $("#index").parents('li').addClass('active');
+			}
+    });
 	</script>
 </head>
 <body>
@@ -46,7 +51,7 @@
 	 <div class="ym-wbox">
 		 <div class="ym-hlist">
 			 <ul>
-				 <li><a href="index.html">Welcome</a></li>
+				 <li><a id="index" href="index.html">Welcome</a></li>
 				 <li><a href="vision.html">Vision</a></li>
 				 <li><a href="research.html">Research</a></li>
 				 <li><a href="people.html">People</a></li>

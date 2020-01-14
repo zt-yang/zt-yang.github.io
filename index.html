@@ -43,7 +43,6 @@
 			$("#footer").load("footer.html")
 		})
 	</script>
-
 </head>
 
 <body id="yaml-top" class="doc">
@@ -104,6 +103,11 @@
 <div id="footer"></div>
 
 <!-- jQuery & Plugins -->
+<script>
+	$(function(){
+		$("#index").addClass('active'); $("#index").parents('li').addClass('active');
+	});
+</script>
 <script src="./assets/js/snippet/jquery.snippet.js"></script>
 <script src="./assets/js/jquery.gridbuilder.js"></script>
 <script src="./assets/js/domscript.js"></script>
