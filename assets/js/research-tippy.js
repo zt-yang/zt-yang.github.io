@@ -68,12 +68,12 @@ $(document).ready(function() {
 			placement: "left",
 			content: "Zhutian Yang (<a href='https://dspace.mit.edu/bitstream/handle/1721.1/119668/CMHI-Report-3.pdf?sequence=1&isAllowed=y'>2018</a>) developed Genesis Novice Learners that acquire hierarchical procedural knowledge by asking questions and by aligning successful problem-solving stories. One learner learns the steps to make a real-world fruit salad by conversing with a human. Another learner learns to replace a phone battery from two 80-word stories that have much irrelevant detail and nothing expressed in exactly the same way."
 		});
-		tippy('#', {
+		tippy('#story-pattern-learner', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
 			placement: "left",
-			content: ""
+			content: "Zhaozheng Alice Jin (<a href='http://groups.csail.mit.edu/genesis/papers/2019%20Alice%20Jin.pdf'>2019, MEng</a>) developed MAXIM, a program that aligns two stories by the emotional states of characters and explains the moral using the common causes of the emotions. The program learns 'It’s ok if you are different because Valuable Rudolph is different' after reading <i>Rudolph the Red-Nosed Reindeer</i> and <i>The Math Aficionado</i>.<br><br> Mark Finlayson (<a href='http://groups.csail.mit.edu/genesis/papers/Finlayson%202011.pdf'>2011, PhD</a>) developed Analogical Story Merging, a new machine learning algorithm that can extract culturally-relevant plot patterns from sets of annotated folktales."
 		});
 
 
@@ -130,7 +130,7 @@ $(document).ready(function() {
 			theme: "light",
 			animation: "shift-away-extreme",
 			placement: "left",
-			content: ""
+			content: "Tristan Thrush (<a href=''>2018</a>)Partial Mental State Inducer (PMSI), which models how humans canlearn intuition for problem solving.   We believe that this is the first model that unifies theoriesof  K-lines,  human  inner  language,  human  problem  solving,  and  neural  reinforcement  learning.The result is human-like learning in a training environment that is too data-starved for traditionalreinforcement learning to be successful. We present experiments in three distinct problem domains(natural language queries, equation solving, and robot planning) with only 20 training problems ineach domain."
 		});
 
 		// Story telling
