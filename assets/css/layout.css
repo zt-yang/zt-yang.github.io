@@ -2885,11 +2885,35 @@
 
   .grid-demo1 .ym-gbox {
     text-align: center;
-    background: #eee;
-    margin-right: 12px;
     padding: 10px;
-    border: 1px #ccc solid;
   }
+
+  /* for research - overview */
+  .my-column {
+    padding: 8px;
+    background: #ebebeb;
+    color: #aaa;
+    height: auto;
+    margin-right: 8px;
+  }
+
+  .my-box {
+    margin: 0px 0px 8px 0px;
+    background: #d3d3d3;
+    color: #888;
+  }
+
+  .my-text {
+    margin: 0px 0px 8px 0px;
+    background: #bcbcbc;
+    color: #111;
+    font-size: 12px;
+  }
+
+  .my-label {
+    padding-top: -4px;
+  }
+  /* end for research - overview */
 
   .dummyscreen {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
@@ -3278,4 +3302,5 @@
   .ym-form input[type="submit"] {
     margin-bottom: 0.25em;
   }
+
 }
