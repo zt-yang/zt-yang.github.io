@@ -2910,8 +2910,78 @@
     font-size: 12px;
   }
 
-  .my-label {
-    padding-top: -4px;
+  .your-column {
+    background: #ebebeb;
+    padding: 16px;
+    height: auto;
+    margin: 0px;
+  }
+
+  .your-text {
+    margin: 0px 12px 24px 12px;
+    background: #bcbcbc;
+    color: #111;
+    font-size: 12px;
+    height: 30px;
+    position: relative;
+  }
+
+  .their-text {
+    margin: 0px 12px 12px 12px;
+    padding: 8px;
+    background: #ccc;
+    color: #111;
+  }
+
+  .floater {
+    float: left;
+    height: 50%;
+    width: 100%;
+    margin-bottom: -8px;
+  }
+
+  .left-bar {
+    background-color: #ccc;
+    position: absolute;
+    left: -17%;
+    width: 17%;
+    height: 5px;
+    padding: 0px;
+    margin-top: 3px;
+  }
+
+  .bottom-bar {
+    background-color: #ccc;
+    position: absolute;
+    bottom: -47%;
+    width: 5px;
+    height: 47%;
+    padding: 0px;
+    margin-left: 42%;
+  }
+
+  .his-box {
+    margin: 0px 0px 8px 0px;
+    background: #efd3d7;
+    color: #d07d87;
+  }
+
+  .his-text {
+    margin: 0px 0px 8px 0px;
+    padding: 10px;
+    background: #e0a8af;
+    color: #111;
+    font-size: 12px;
+  }
+
+  .my-line {
+    background-color: #aaa;
+    position: absolute;
+    left: -10%;
+    width: 17%;
+    height: 5px;
+    padding: 0px;
+    margin-top: 3px;
   }
   /* end for research - overview */
 

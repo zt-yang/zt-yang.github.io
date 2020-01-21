@@ -49,7 +49,7 @@ $(document).ready(function() {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
-			placement: "left",
+			placement: "bottom",
 			content: "Jessica Noss (<a href='https://groups.csail.mit.edu/genesis/papers/2017%20Jessica%20Noss.pdf'>2017, MEng</a>) developed Perspectives Expert, answer 'Does' and 'Why does' questions from the perspectives of different characters.<br><br> Dylan Holmes (<a href='http://groups.csail.mit.edu/genesis/papers/2017%20Dylan%20Holmes.pdf'>2017, MS</a>) developed PERSONATE, a program that predicts what a character would do in a novel situation based on his methods, motives, and moral constraints inferred from previous actions. Hypothetical expert, a program that answers What-If questions about alternative stories. It discovers the pattern of spiteful violence instead of self-defense when asked 'what would happen if Alex doesn't brandish a knife?' It discovers Teaching a lesson instead of aggression of a bully when asked 'what would happen if I am not from Estonia?'   <br><br>Hiba Awad (<a href='http://groups.csail.mit.edu/genesis/papers/awad%202013.pdf'>2013, MEng</a>) developed a program that answers 'Did Lu kill Shan because America is individualistic' by inserting the prior belief of 'I believe America is individualistic' into the story and finding the causal chains."
 		});
 
@@ -79,53 +79,54 @@ $(document).ready(function() {
 
 		// Problem solving
 
-		tippy('#', {
-			interactive: true,
-			theme: "light",
-			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
-		});
-		tippy('#', {
-			interactive: true,
-			theme: "light",
-			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
-		});
-		tippy('#', {
-			interactive: true,
-			theme: "light",
-			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
-		});
+		// tippy('#',
+		// 	interactive: true,
+		// 	theme: "light",
+		// 	animation: "shift-away-extreme",
+		// 	placement: "left",
+		// 	content: ""
+		// });
+		// tippy('#', {
+		// 	interactive: true,
+		// 	theme: "light",
+		// 	animation: "shift-away-extreme",
+		// 	placement: "left",
+		// 	content: ""
+		// });
+		// tippy('#', {
+		// 	interactive: true,
+		// 	theme: "light",
+		// 	animation: "shift-away-extreme",
+		// 	placement: "left",
+		// 	content: ""
+		// });
 
 
-		tippy('#', {
+
+		tippy('#HTN-planner', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
+			placement: "bottom",
+			content: "Patrick Winston (<a href='https://dspace.mit.edu/bitstream/handle/1721.1/119652/CMHI-Report-2.pdf?sequence=1&isAllowed=y'>2018</a>) developed Genesis Problem Solver, an HTN planner inside Genesis. He demonstrated a problem-solving scenario in which the Genesis tells its own story, in its own inner language, as it answers a question, 'Did Lu kill Shan because America is individualistic,' about a grisly murder."
 		});
-		tippy('#', {
-			interactive: true,
-			theme: "light",
-			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
-		});
+		// tippy('#regression-planner', {
+		// 	interactive: true,
+		// 	theme: "light",
+		// 	animation: "shift-away-extreme",
+		// 	placement: "left",
+		// 	content: ""
+		// });
 
 
-		tippy('#', {
-			interactive: true,
-			theme: "light",
-			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
-		});
-		tippy('#', {
+		// tippy('#HTN-generator', {
+		// 	interactive: true,
+		// 	theme: "light",
+		// 	animation: "shift-away-extreme",
+		// 	placement: "left",
+		// 	content: ""
+		// });
+		tippy('#HTN-selector', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
@@ -135,33 +136,33 @@ $(document).ready(function() {
 
 		// Story telling
 
-		tippy('#', {
+		tippy('#story-summarizer', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
+			placement: "right",
+			content: "Patrick Winston (<a href='https://pdfs.semanticscholar.org/b88d/1e9e8da089388ffa03becc1013103fd96e51.pdf'>2015</a>) developed a story summarizer that uses a collection of method to reduce elements of stories: eliminating disconnected story elements, delivering only story elements connected to conceptual patterns, and focusing on particular concepts of interest. It summarizes an 85-element synllege of  Shakespeare’s Macbeth with 14-element concise story about Pyrrhic victory. Across stories, the summarizer can compress stories by 60-74%."
 		});
-		tippy('#', {
+		tippy('#instructive-storyteller', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
+			placement: "right",
+			content: "Sila Sayan (<a href='http://groups.csail.mit.edu/genesis/papers/Sayan%202014.pdf'>2014, MEng</a>) developed Instruction expert, a program that simulates a teacher using stories to feed the student facts, or explanations of the facts, or knowledge used in the explanation."
 		});
-		tippy('#', {
+		tippy('#persuasive-storyteller', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
+			placement: "right",
+			content: "Sila Sayan (<a href='http://groups.csail.mit.edu/genesis/papers/Sayan%202014.pdf'>2014, MEng</a>) developed Persuasion expert, a program that retells a story to emphasize a character trait by removing story events that show the opposite trait of the character and removing story events that show other characters having that trait."
 		});
-		tippy('#', {
+		tippy('#character-aware-storyteller', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
+			placement: "right",
+			content: "Matthew Paul Fay (<a href='http://groups.csail.mit.edu/genesis/papers/fay%202014.pdf'>2014, PhD</a>) developed a program that generates stories given the traits of characters. It generates by adapting the plots associated with previous characters with those traits to the current character, then efficiently weaving the plots of differet characters together to make them compatible and consistent in time. The program can generate stories given character with evolving traits, character with cross-genre traits, and characters with conflicting goals. In one generated story, a character ends up falling in love with his lost daughter and they get married--this is unexpected use of knowledge gathered from the romances in Shakespearean comedies."
 		});
 
 
@@ -172,27 +173,27 @@ $(document).ready(function() {
 			placement: "right",
 			content: "Jessica Noss (<a href='https://groups.csail.mit.edu/genesis/papers/2017%20Jessica%20Noss.pdf'>2017, MEng</a>) developed Perspectives Expert, a program that forms detailed mental models of characters in a story, thus able to retell the stories from different character's perspectives, answer reading-comprehension questions to demonstrate understanding, and explaining opposing viewpoints to reconciliate conflict. The program retells the stories of Inspector Javert and Jean Valjean in Les Miserables, along with their goals and interpretation of events that they observe, showing the reader why they think and act differently."
 		});
-		tippy('#', {
+		tippy('#scene-describer', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
 			placement: "left",
-			content: ""
+			content: "Cagri (2020) ..."
 		});
-		tippy('#', {
+		tippy('#plan-explainer', {
 			interactive: true,
 			theme: "light",
 			animation: "shift-away-extreme",
 			placement: "left",
-			content: ""
+			content: "Patrick Winston (<a href='https://pdfs.semanticscholar.org/b88d/1e9e8da089388ffa03becc1013103fd96e51.pdf'>2015</a>) developed a story summarizer that uses a collection of method to reduce elements of stories: eliminating disconnected story elements, delivering only story elements connected to conceptual patterns, and focusing on particular concepts of interest. It summarizes an 85-element synllege of  Shakespeare’s Macbeth with 14-element concise story about Pyrrhic victory. Across stories, the summarizer can compress stories by 60-74%."
 		});
-		tippy('#', {
-			interactive: true,
-			theme: "light",
-			animation: "shift-away-extreme",
-			placement: "left",
-			content: ""
-		});
+		// tippy('#interactive-planner', {
+		// 	interactive: true,
+		// 	theme: "light",
+		// 	animation: "shift-away-extreme",
+		// 	placement: "left",
+		// 	content: ""
+		// });
 
 
 		tippy('#interactive-task-learner', {
