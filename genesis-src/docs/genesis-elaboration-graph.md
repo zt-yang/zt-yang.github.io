@@ -1,3 +1,0 @@
-# Elaboration Graph
-
-Elaboration Graph 
